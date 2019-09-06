@@ -1,0 +1,419 @@
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,p,a,li{
+    color:#4D342D;
+    font-family: "Rounded Mplus 1c";
+}
+body{
+    background-color: #e3eb2f;
+    margin: 0;
+    padding: 0;
+}
+.kome-org{
+    color:green;
+}
+/*checkbox*/
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding:1%;
+}
+#thankyou{
+    position: relative;
+    width: 100%;
+    height: 97vh;
+    background-color: #fae25a;
+    background-size: 100%;
+}
+#thankyou:after{
+    position: absolute;
+    content: "";
+    background: url(../image/form_comp1.png) no-repeat;
+    background-size: 100%;
+    bottom: -8vw;
+    width: 100%;
+    height: 41%;
+}
+center h2{
+    font-size: 5vw;
+    padding-top: 22%;
+}
+
+button{
+    background-color: unset;
+    border: unset;
+}
+
+.chkbox {
+    margin:         0 0 10px 20px;
+}
+/* ラベルのスタイル　*/
+.chkbox label {
+         /* ラベルの位置 */
+    padding-left: 6.5%;
+    font-size: 1.2rem;
+    line-height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.chkbox label span{
+    color:#E97C1F;
+    border-bottom:1px solid #603813;
+}
+
+/* ボックスのスタイル */
+.chkbox label:before {
+    content:        '';
+    width:          32px;           /* ボックスの横幅 */
+    height:         32px;           /* ボックスの縦幅 */
+    display:        inline-block;
+    position:       absolute;
+    left: 0;
+    background-color:   #fff;
+    border:1px solid ;
+}
+/* 元のチェックボックスを表示しない */
+.chkbox input[type=checkbox] {
+    display:        none;
+}
+/* チェックした時のスタイル */
+.chkbox input[type=checkbox]:checked + label:before {
+    content:        '\2713';        /* チェックの文字 */ 
+    font-size:      34px;           /* チェックのサイズ */
+    color:          #fff;           /* チェックの色 */
+    background-color:   #06f;           /* チェックした時の色 */
+}
+
+
+@media screen and (min-width:901px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-size: 14px;
+        
+    }
+    
+#thanks_none {
+    position: relative;
+    color: #603813;
+    font-family: "Rounded Mplus 1c";
+    padding-top: 3%;
+    padding-bottom: 20%;
+    background-image: url(../img/back_inquiry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 152em;
+    background-position: 50%;
+}
+.ffinquiry{
+    font-size: 6.2vw;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 38%;
+    border-bottom: 4px solid #603813;
+}
+#contain{
+    padding: 5% 5% 5% 10%;
+    width:1000px;
+    position: absolute;;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin:auto;
+    border: 3px solid #4D342D;
+    background-color:white;;
+}
+
+label{
+    font-size:1.2rem;
+    padding-bottom:0.5%;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+}
+input{
+    line-height: 1.6rem;
+    border: 1px solid #603813;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    padding:1px 5px;
+}
+.form-box{
+    padding-bottom:3%;
+}
+textarea{
+    width:84%;
+    font-size: 1.1rem;
+}
+/*細かい指定*/
+
+#form-name label{
+    display:inline-block;
+    width:5%;
+    text-align: left;
+}
+
+#form-name input{
+    width:79%;
+}
+
+#na_kanji{
+    padding-top:3%;
+}
+
+#mail{
+    width: 67.6%;
+}
+
+#check p{
+    font-size:1.4rem;
+}
+#form-number{
+    position:relative;
+}
+
+#form-contact{
+    position:relative;
+}
+
+#check{
+    position:relative;
+}
+
+
+/*送信ボタン*/
+#sbm{
+    width:50%;
+    margin:0 auto;
+    padding: 5% 0;
+}
+#sbm img{
+    width:100%;
+}
+}
+/*PC　finished*/
+
+@media screen and (max-width:900px){
+
+    *{
+        margin:0;
+        padding:0;
+        color:#603813;
+        font-family: "Rounded Mplus 1c";
+    }
+
+    
+    
+    #thanks_none{
+        height: 20em;
+        background-image: url(../img/back_inquiry_sp.png);
+        background-size: 140%;
+        background-position-x: 50%;
+        background-repeat: no-repeat;
+        background-color: #F6F6F6;
+        color:#603813;
+        font-family: "Rounded Mplus 1c";
+        margin: 0;
+        padding: 0;
+    }
+    .ffinquiry{
+        font-size: 12.2vw;
+        position: absolute;
+        top: 38%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 75%;
+        border-bottom: 4px solid #603813;
+    }
+    #contain{
+        padding: 5% 0% 5% 0%;
+        position: absolute;;
+        top: 50%;
+        right: 0;
+        left: 0;
+        margin:auto;
+        background-color: #F6F6F6;
+    }
+
+    
+    h1{
+        text-align: center;
+        padding-top: 52%;
+        font-size: 2.4rem;
+        border-bottom: 4px solid #603813;
+        width: 70%;
+        margin: 0 auto;
+        font-family: "Rounded Mplus 1c";
+    }
+    
+    p{
+        font-size:2.4rem;
+        font-weight:600;
+        font-family: "Rounded Mplus 1c";
+    }
+
+    label{
+        font-size: 1.4rem;
+        color:#603813;
+        font-family: "Rounded Mplus 1c";
+        padding: 0% 4% 0% 0%;
+        margin-top:4%;
+    }
+    input{
+        width:70%;
+        font-size:1.6rem;
+        line-height: 1.6rem;
+        border: 1px solid #603813;
+        color:#603813;
+        font-family: "Rounded Mplus 1c";
+        padding: 1% 4% 1% 2%;
+        margin-top: 1%;
+    }
+
+    #mail{
+        width: 90%;
+    }
+    #mail_lab{
+        font-size:6vw;
+        margin-right:20%;
+    }
+    
+    .form-box p{
+        font-size: 1.8rem;
+        background-color:#E8E441;
+        font-family: "Rounded Mplus 1c";
+        padding: 2% 14%;
+        margin-bottom:3%;
+        margin-top:3%;
+    }
+    #check p{
+        background-color:#F6F6F6;
+        font-family: "Rounded Mplus 1c";
+    }
+    
+    #sei_kanji label, #na_kanji label{
+        margin-right: 2.5%;
+    }
+    #na_kanji{
+        padding-top:5%;
+    }
+    #na_kana{
+        margin-bottom:3%;
+    }
+    #form-name label{
+        font-size:5vw;
+        width:20%;
+        text-align: left
+    }
+    #sei_kanji label,#na_kanji label{
+            margin-right: 5%;
+    }
+    #inquiry_detail textarea{
+        width: 90%;
+        font-size: 1.2rem;
+        padding: 1%;
+        margin: 1% 4%;
+        border: 1px solid #000000;
+        resize: vertical;
+        height: 160px;
+        min-height: 140px;
+        max-height: 300px;
+    }
+    
+    
+    /*checkbox*/
+    .chkbox {
+        margin:         0 0 10px 20px;
+    }
+    /* ラベルのスタイル　*/
+    .chkbox label {
+             /* ラベルの位置 */
+             margin-top: 11%;
+        padding-left: 12%;
+        font-size: 1.2rem;
+        line-height: 32px;
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .chkbox label span{
+        color:#E97C1F;
+        border-bottom:1px solid #603813;
+    }
+    
+    /* ボックスのスタイル */
+    .chkbox label:before {
+        content:        '';
+        width:          32px;           /* ボックスの横幅 */
+        height:         32px;           /* ボックスの縦幅 */
+        display:        inline-block;
+        position:       absolute;
+        left: 0;
+        background-color:   #fff;
+        border:1px solid ;
+    }
+    /* 元のチェックボックスを表示しない */
+    .chkbox input[type=checkbox] {
+        display:        none;
+    }
+    /* チェックした時のスタイル */
+    .chkbox input[type=checkbox]:checked + label:before {
+        content:        '\2713';        /* チェックの文字 */ 
+        font-size:      34px;           /* チェックのサイズ */
+        color:          #fff;           /* チェックの色 */
+        background-color:   #06f;           /* チェックした時の色 */
+    }
+    
+    #sbm{
+        width:75%;
+        margin:0 auto;
+        padding: 5% 0;
+    }
+    #sbm img{
+        width:100%;
+    }
+    .contact-wrapper1{
+        margin-top: 0.5em;
+    }
+    center h2 {
+        font-size: 4.5vw;
+        padding-top: 40%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #thankyou p{
+        font-size: 1rem;
+    }
+    .blan_blank{
+        width: 100%;
+        height: 30vh;
+        background-color: #FFF;
+    }
+    #thankyou:after{
+        position: absolute;
+        content: "";
+        background: url(../image/form_comp1sp.png) no-repeat;
+        background-size: 100%;
+        bottom: -5vw;
+        width: 100%;
+        height: 43%;
+    }
+    #thankyou{
+        height: 102vh;
+    }
+
+    }
+    /*SP finished*/

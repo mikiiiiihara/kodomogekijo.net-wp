@@ -1,0 +1,607 @@
+@charset "UTF-8";
+html,head,body,div,img,h1,h2,h3,h4,h4,h6,p,a,ul,li,section{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,p,a,li{
+    color:#4D342D;
+    font-family: "Rounded Mplus 1c";
+}
+
+
+@media screen and (min-width:751px){
+    /*PC用のスタイル記述*/
+.wrapper1{
+    background-image: url("../img/background001.jpg");
+    background-size:100vw;
+    background-repeat:no-repeat; 
+    background-color:#f6f6f6;  
+}
+.page1{
+    width:1000px;
+    margin:0 auto;
+}
+.entry{
+    padding-top: 45vw;
+    padding-bottom: 31vw;
+    text-align: center;
+    font-family: "Rounded Mplus 1c";
+    color: #4e342e;
+    font-size: 4vw;
+    letter-spacing: 0.8rem;
+    font-weight: 500;
+    cursor: default;
+    margin-top: 4%;
+}
+
+
+
+
+.wrapper2{
+    background-image: url("../img/background002.jpg");
+    background-size:100vw;
+    background-repeat:no-repeat; 
+    background-color:#f6f6f6;
+}
+.page2{
+    width:1000px;
+    margin:0 auto;  
+}
+.sentence1{
+    padding-top:50vh;
+    padding-bottom:8vh;
+}
+.sentence1 p{
+    text-align: center;
+    font-family: "Rounded Mplus 1c";
+    color: #4e342e;
+    font-size:1.5vw;
+    line-height: 1.9rem;
+    letter-spacing: 0.1rem;
+    cursor: default;
+}
+.sentence1 p br{
+    display: none;
+}
+.board{
+    height:200px;
+    text-align: center;
+    padding-bottom:10vw;
+}
+.board img{
+    width:60vw;
+    height:auto;
+}
+.sentence2{
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    top:-26vh;
+}
+.sentence2 p{
+    text-align: left;
+    font-family: "Rounded Mplus 1c";
+    color: #f6f6f6;
+    font-size:1.6vw;
+    line-height: 2.4rem;
+    letter-spacing:0.1rem;
+    cursor: default;
+}
+.btn img{
+    width:40%;
+    height:auto;
+}
+.btn{
+    text-align:center;
+}
+.one{
+    padding-bottom:7%;  
+}
+.two{
+    padding-bottom:19%;
+}
+.three{
+    padding-bottom:0;
+}
+
+
+
+
+.wrapper3{
+    background-image: url("../img/background003.jpg");
+    background-size:100vw;
+    background-repeat:no-repeat; 
+    background-color:#f4c331;
+}
+.page3{
+    width:1000px;
+    margin:0 auto;
+}
+.sentence3{
+    text-align: center;
+    padding-top:100vw;
+    padding-bottom:5vw;
+}
+.sentence3 p{
+    text-align: center;
+    font-family: "Rounded Mplus 1c";
+    color: #4e342e;
+    font-size:1.5vw;
+    line-height: 1.9rem;
+    letter-spacing: 0.2rem;
+    cursor: default;
+}
+.sentence3 p br{
+    display: none;
+}
+.sentence4{
+    padding-bottom:5vw;
+}
+.sentence4 p{
+    text-align: center;
+    font-family: "Rounded Mplus 1c";
+    color: #4e342e;
+    font-size:1.5vw;
+    line-height: 1.9rem;
+    letter-spacing:0.2rem;
+    cursor: default;
+}
+
+
+
+
+.wrapper4{
+    background-image: url("../img/background004.jpg");
+    background-size:100vw;
+    background-repeat:no-repeat; 
+    background-color:#f6f6f6;
+    padding-bottom: 18vh;
+}
+.page4{
+    width:1000px;
+    height: 192vh;
+    margin:0 auto;
+}
+.members{
+    padding-top:32vw;
+    float: left;
+    width: 1000px;
+}
+.member1{
+    margin-left: 6vw;
+    padding: 0;
+}
+.photos{
+    position: relative;
+    float: left;
+    cursor:pointer;
+    padding-right:1vw;
+    margin-bottom: 12vw;
+}
+.photos:hover{
+    opacity:0.5;
+}
+.coments1{
+    position: absolute;
+	display: none;
+ 	margin-top: 28vw;
+    left: 13vw;
+	padding: 30px 60px;
+	min-width: 100px;
+ 	max-width: 65vw;
+ 	color: #F7F7F7;
+	font-size: 1.3vw;
+    font-family: "Rounded Mplus 1c";
+    line-height: 1.7rem;
+	background: #4E342E;
+    border-radius: 45px;
+}
+.coments1 p br{
+        display: none;
+}
+
+.coments2{
+    position: absolute;
+    display: none;
+    margin-top: -17vw;
+    left: -3vw;
+    padding: 30px 60px;
+    min-width: 100px;
+    max-width: 90vw;
+    color: #F7F7F7;
+    font-size: 1.3vw;
+    font-family: "Rounded Mplus 1c";
+    line-height: 1.7rem;
+    background: #4E342E;
+    border-radius: 45px;
+}
+.coments2 p br{
+        display: none;
+}
+
+
+.coments1:before{
+    content: "";
+	position: absolute;
+	top: -30px;
+ 	margin-left: -15px;
+	border: 15px solid transparent;
+	border-bottom: 15px solid #4E342E;
+}
+.coments2:after{
+    content: "";
+	position: absolute;
+    bottom: -30px;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #4E342E;
+}
+.photo1:hover + .coment1{
+    display: block;
+}
+
+.coment1:before{
+    left: 12%;
+}
+.photo2:hover + .coment2{
+    display: block; 
+}
+.coment2:before{
+	left: 43%;
+}
+.photo3:hover + .coment3{
+    display: block;
+}
+.coment3:before{
+	left: 74%;
+}
+.member4{
+    position: relative;
+    margin-top: 60%;
+    margin-left: 8%;
+}
+.photo4:hover + .coment4{
+    display: block;
+}
+.coment4:after{
+    left: 12%;
+}
+.photo5:hover + .coment5{
+    display: block;
+}
+.coment5:after{
+    left: 43%;
+}
+.photo6:hover + .coment6{
+    display: block;
+}
+.coment6:after{
+    left: 74%;
+}
+}
+
+
+/*スマホ版のスタイル記述*/
+@media screen and (max-width:750px){
+    .wrapper1{
+        height: 30em;
+        background-image: url(../img/background0001.jpg);
+        background-size: 98vw;
+        background-repeat: no-repeat;
+        background-color: #f6f6f6;
+    }
+    .page1{
+        width:360px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1.5%;
+    }
+    .entry{
+        padding-top: 295px;
+        padding-bottom: 132px;
+        width: 280px;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Rounded Mplus 1c";
+        color: #4e342e;
+        font-size: 35px;
+        letter-spacing: 8px;
+        font-weight: 500;
+    }
+
+
+    .wrapper2{
+        height: 74.5vh;
+        background-image: url("../img/background0002.jpg");
+        background-size:100vw;
+        background-repeat:no-repeat; 
+        background-color:#f6f6f6;
+    }
+    .page2{
+        width:360px;
+        margin:0 auto;
+        
+    }
+    .sentence1{
+        padding-top :25vh;
+        padding-bottom:3vh;
+        width: 100%;
+        height: 20%;
+    }
+    .sentence1 p{
+        text-align: center;
+        font-family: "Rounded Mplus 1c";
+        color: #4e342e;
+        font-size: 75%;
+        line-height: 1.5em;
+    }
+    .board{
+        /*height:10vh;*/
+        text-align: center;
+        padding-bottom:10px;
+    }
+    .board img{
+        width:90%;
+        height:auto;
+    }
+    .sentence2{
+        width: 300px;
+        position: relative;
+        top: -13vh;
+        left: 11vw;
+    }
+    .sentence2 p{
+        text-align: left;
+        font-family: "Rounded Mplus 1c";
+        color: #f6f6f6;
+        font-size:65%;
+        line-height: 1.5em;
+    }
+    .btn img{
+        width: 75vw;
+        height: auto;
+    }
+    .one{
+        margin-top: -3vh;
+        text-align: center;
+        
+    }
+    .two{
+        margin: 3vh 8vw;
+        padding-bottom: 45vw;
+    }
+    .three{
+        padding-left: 10vw;
+    }
+
+
+
+
+    .wrapper3{
+        height: 113vh;
+        background-image: url("../img/background0003.jpg");
+        background-size:100vw;
+        background-repeat:no-repeat; 
+        background-color:#f4c331;
+    }
+    .page3{
+        width:350px;
+        margin:0 auto;
+    }
+    .sentence3{
+        text-align: center;
+        padding-top: 150vw;
+        padding-bottom: 2vh;
+    }
+    .sentence3 p{
+        text-align: center;
+        font-family: "Rounded Mplus 1c";
+        color: #4e342e;
+        font-size:70%;
+        line-height: 1.5em;
+        letter-spacing: -0.5px;
+    }
+    .sentence4{
+        padding-bottom:10px;
+    }
+    .sentence4 p{
+        text-align: center;
+        font-family: "Rounded Mplus 1c";
+        color: #4e342e;
+        font-size:70%;
+        line-height: 1.5em;
+        letter-spacing: -0.5px;
+    }
+
+
+
+
+    .wrapper4{
+        height: 134vh;
+        background-image: url("../img/background0004.jpg");
+        background-size:100vw;
+        background-repeat:no-repeat; 
+        background-color:#f6f6f6;
+    }
+    .page4{
+        width:350px;
+        margin: -1.5vh auto;
+        z-index: 1;
+    }
+    .members{
+        padding-top: 147px;
+    }
+    .photos{
+        position: relative;
+        float: left;
+        width: 40%;
+        padding-top: 3.5vh;
+        padding-left: 8%;
+        margin-bottom: 8vh;
+    }
+    .photo3{
+        margin-right: 30vw;
+    }
+    .photo4{
+        margin-left: -30vw;
+    }
+    .name1{
+        width: 59%;
+        margin: 0 auto;
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+    }
+    .name1::before{
+        content: url("../img/icon1.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin:8vh 0vw 5vh 1.2vw;
+    }
+    .coment1{
+        display: none;
+    }
+
+    .name2{
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+        width: 69%;
+        margin: 0 auto;
+    }
+    .name2::before{
+        content: url("../img/icon2.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin:8vh 0vw 5vh 5vw;
+    }
+    .coment2{
+        display: none;
+    }
+
+    .name3{
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .name3::before{
+        content: url("../img/icon3.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin: 8vh 0vw 5vh -2vw;
+    }
+    .coment3{
+        display: none;
+    }
+
+    .name4{
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+        margin: 0 auto;
+        width: 60%;
+    }
+    .name4::before{
+        content: url("../img/icon4.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin:8vh 0vw 5vh 1vw;
+    }
+    .coment4{
+        display: none;
+    }
+
+    .name5{
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+        margin: 0 auto;
+        width: 60%;
+    }
+    .name5::before{
+        content: url("../img/icon5.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin:8vh 0vw 5vh 1vw;
+    }
+    .coment5{
+        display: none;
+    }
+
+    .name6{
+        font-family: "Rounded Mplus 1c";
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+        padding-bottom: 3vh;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .name6::before{
+        content: url("../img/icon6.png");
+        width: 5%;
+        height: auto;
+        display: block;
+        margin:8vh 0vw 5vh 5vw;
+    }
+    .coment6{
+        display: none;
+    }
+
+    .coments1{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 80vw;
+        height: 85vh;
+        margin-top: 10vh;
+        margin-left: 6vw;
+        z-index: 2;
+    }
+    .coments1 p{
+        font-family: "Rounded Mplus 1c";
+        font-size: 70%;
+        color: white;
+        text-align: center;
+        line-height: 2em;
+        margin: 0 auto;
+    }
+    .coments2{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 80vw;
+        height: 85vh;
+        margin-top: 10vh;
+        margin-left: 6vw;
+        z-index: 2;
+    }
+    .coments2 p{
+        font-family: "Rounded Mplus 1c";
+        font-size: 70%;
+        color: white;
+        text-align: center;
+        line-height: 2em;
+        width: 60vw;
+        margin: 0 auto;
+    }
+.shorter11{
+    font-size: 0.8em;
+    width: 80%;
+}
+}

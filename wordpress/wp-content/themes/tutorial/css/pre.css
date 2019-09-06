@@ -1,0 +1,454 @@
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,p,a,li{
+    color:#4D342D;
+    font-family: "Rounded Mplus 1c";
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img,
+body,
+div,
+section,
+a{
+    margin:0;
+    padding: 0;
+}
+img{
+    border:0;
+    max-width: 100%;
+    height: auto;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+}
+/* ここからが本番 */
+
+.top-wrapper1{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgb(239,163,29);
+}
+.pic111{
+    width: 100vw;
+    display: block;
+    margin-top: 4%;
+}
+.pic222{
+    width: 100vw;
+    margin-top: -21.2vw;
+    vertical-align: bottom; 
+    
+}
+.prev-theme1{
+    width: 44%;
+    color:rgb(96,56,19);
+    font-size: 6.2vw;
+    position: absolute;
+    bottom: 3em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-bottom: 0.3vw solid rgb(77,52,45);
+    padding: 0 5%;
+}
+.wp-content1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: -moz-linear-gradient(top, rgb(239,163,29), rgb(255,216,0) 30%, rgb(255,228,0) 60%, rgb(254,143,0));
+    background: -webkit-linear-gradient(top, rgb(239,163,29), rgb(255,216,0) 30%, rgb(255,228,0) 60%, rgb(254,143,0));
+    background: linear-gradient(to bottom, rgb(239,163,29), rgb(255,216,0) 30%, rgb(255,228,0) 60%, rgb(254,143,0));
+}
+.btn-zone{
+    position: relative;
+    width: 100%;
+    height: 17em;
+}
+.pic333{
+    width: 24vw;
+}
+.pic444{
+    width: 24vw;
+}
+.icon14{
+    z-index: 1;
+    width: 24vw;
+    position: absolute;
+    top: -1.8vw;
+    left: 21vw;
+    text-align: center;
+}
+.icon24{
+    z-index: 1;
+    width: 35vw;
+    position: absolute;
+    top: -1.8vw;
+    right: 16vw;
+    text-align: center;
+}
+.pplane{
+    width: 36%;
+    right: 1%;
+    bottom: -27%;
+    z-index: 0;
+}
+.icon-sentence{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pre-posts{
+    position: relative;
+    z-index: 2;
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    list-style:none;
+    border-radius: 1vw;
+    border: 0.6vw solid rgb(77,52,45);
+    background: rgba(246,246,246,0.9);
+    padding-bottom: 10vw;
+    margin-bottom: 6em;
+}
+
+.pre-posts:after{
+    content: "";
+    background-image: url(../image/prpricon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30%;
+    height: 175px;
+    position: absolute;
+    left: -9%;
+    bottom: -88px;
+}
+
+.pre-contents{
+    width: 90%;
+    margin: 0 auto;
+}
+.pre-post{
+    position: relative;
+    width: 100%;
+    padding: 30px 10px;
+    height: auto;
+}
+.pre-post p{
+    color: rgb(77,52,45);
+}
+.e-month{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pSL{
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+.pmonth{
+    font-size: 2.5vw;
+    text-align: center;
+    margin-right: 12%;
+    margin-top: -18%;
+    position: relative;
+    z-index: 4;
+}
+.pre-post:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.eyecatch{
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    float: left;
+    padding-bottom: 0.5em;
+    margin-top: 3em;
+
+}
+.picture{
+    width: 90%;
+    margin: 0 5%;
+    height: auto;
+    position: relative;
+}
+.y-border img{
+    width: 100%;
+    border: 0.3vw solid rgb(244,195,49);
+}
+.p-content22{
+    width: 55%;
+    height: auto;
+    float: left;
+    margin-left: 4%;
+    margin-top: 3em;
+}
+.p-content22 h2{
+    width: 95%;
+    margin-left: 5%;
+    font-size: 1.8em;
+}
+.date-box{
+    float: right;
+    width: 30%;
+    height: auto;
+    font-size: 2.4vw;
+    color:#4D342D;
+}
+.date{
+    float: left;
+    margin: 0 auto;
+}
+.day{
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 1.7vw;
+    background-color:rgb(239,163,29);
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+.day p{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.place{
+    clear: left;
+    margin-top: 3em;
+}
+.place:before{
+    content: "";
+    background-image: url(../image/picon1.png);
+    background-repeat: no-repeat;
+    background-size: 56%;
+    width: 40px;
+    height: 120%;
+    position: absolute;
+    left: -8%;
+    top: 0;
+}
+.time:before{
+    content: "";
+    background-image: url(../image/picon2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 55px;
+    height: 120%;
+    position: absolute;
+    left: -8.35%;
+    top: 2px;
+}
+.price:before{
+    content: "";
+    background-image: url(../image/picon3.png);
+    background-repeat: no-repeat;
+    background-size: 56%;
+    width: 40px;
+    height: 120%;
+    position: absolute;
+    left: -8%;
+    top: 0;
+}
+.fnt1{
+    font-size: 1.35em;
+    margin-left: 10%;
+    position: relative;
+}
+.fnt2{
+    font-size: 1em;
+    margin-left: 10%;
+    position: relative;
+}
+
+#tags-inst{
+    color: #4D342D;
+}
+.resev-btn{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #e97c1f;
+    text-align: center;
+    font-size: 2.3vw;
+    padding: 6% 1%;
+    margin-top: 10%;
+}
+.resev-btn22{
+    width: 90%;
+    background-color: rgb(161,147,136);
+    text-align: center;
+    font-size: 2vw;
+    padding: 6% 1%;
+    margin-top: 20%;
+}
+
+.cc-btn:hover{
+    opacity:0.9;
+    transform:scale(1.05);
+    transition-duration:0.1s;
+    transition-timing-function:ease-in-out;
+}
+.pagination{
+    text-align: center;
+    margin-bottom:0;
+    font-size: 1.8vw;
+}
+.pp-menu{
+    position: absolute;
+    bottom: 1.4%;
+    right: 0;
+    left: 0;
+}
+
+/* 背景画像 */
+.absl{
+    position: absolute;
+}
+.sp-icon333 {
+    width: 45%;
+    position: absolute;
+    bottom: -19px;
+    z-index: 1;
+    right: -10%;
+}
+/* スマホ用画像（PC版には表示しない） */
+.pic111s,.resev-btn112,.resev-btn2222{
+    display: none;
+}
+
+
+@media screen and (max-width:620px){
+    .pic111s{
+        display: block;
+        width: 100vw;
+        margin-top: 8%;
+    }
+    .prev-theme1 {
+        width: 90vw;
+        color: rgb(96,56,19);
+        font-size: 12.2vw;
+        position: absolute;
+        bottom: 2em;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-bottom: 0.3vw solid rgb(77,52,45);
+        padding: 0 5%;
+    }
+    .pic333{
+        width:100%;
+    }
+    .icon14{
+        width: 50vw;
+        position: absolute;
+        top: 2.2vw;
+        left: 3vw;
+    }
+    .icon-sentence {
+        font-size: 1rem;
+    }
+    .pic444{
+        width: 52vw;
+    }
+    .icon24{
+        width: 52vw;
+        top: 28vw;
+        right: 1vw;
+
+    }
+    .pplane {
+        width: 70%;
+        bottom: -6.3em;
+        right: 20px;
+        z-index: 3;
+    }
+    .pre-posts{
+        border-radius: 2.5vw;
+        width: 94%;
+        height: auto;
+        margin-top: 5em;
+        padding-bottom: 6em;
+    }
+    .pre-posts:after{
+        left: unset;
+        height: 6em;
+        right: -2%;
+        bottom: -36px;
+        background-size: 90%;
+        width: 50%;
+    }
+    .pre-post{
+        height: auto;
+    }
+    .e-month{
+        width: 60%;
+    }
+    .eyecatch{
+        float: unset;
+        width: 94%;
+    }
+    .picture{
+        width: 100%;
+        margin: 0;
+    }
+    .p-content22{
+        float: unset;
+        width: 90%;
+        margin: 0;
+    }
+    .date-box{
+        font-size: 7vw;
+        width: 36%;
+    }
+    .day{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+    }
+    .place:before,.time:before,.price:before{
+        left: -17%;
+    }
+    .resev-btn112{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #e97c1f;
+        text-align: center;
+        font-size: 7vw;
+        padding: 6% 1%;
+        margin-top: 10%;
+    }
+    .resev-btn2222{
+        display: block;
+        width: 100%;
+        background-color: rgb(161,147,136);
+        text-align: center;
+        font-size: 7vw;
+        padding: 6% 1%;
+        margin-top: 20%;
+    }
+    .sp-icon333 {
+        width: 45%;
+        position: absolute;
+        bottom: -4%;
+        z-index: 1;
+        left: 61%;
+    }
+
+    /* 表示しない画像 */
+    .pic111,.pic222,.resev-btn,.resev-btn22{
+        display: none;
+    }
+}

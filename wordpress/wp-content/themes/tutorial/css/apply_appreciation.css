@@ -1,0 +1,744 @@
+@charset "UTF-8";
+
+/*checkbox*/
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding:1%;
+}
+#thankyou{
+    position: relative;
+    width: 100%;
+    height: 97vh;
+    background-color: #e8e441;
+    background-size: 100%;
+}
+#thankyou:after{
+    position: absolute;
+    content: "";
+    background: url(../image/form_comp2.png) no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 41%;
+}
+center h2{
+    font-size: 5vw;
+    padding-top: 18%;
+}
+
+
+
+@media screen and (min-width:901px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    
+}
+
+.contact-wrapper1{
+    margin-top: 3%;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    padding-top: 70%;
+    padding-bottom:20%;
+    background-image: url("../img/back_appreciation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 0%;
+    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20% 0 0 0;
+    font-size: 4vw;
+    border-bottom: 4px solid #603813;
+    margin-bottom: 5%;
+    width: 40%;
+    display: block;
+}
+.ffinquiry{
+    font-size: 4.2vw;
+    position: absolute;
+    top: 50vw;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 40%;
+    border-bottom: 4px solid #603813;
+}
+
+#contain{
+    padding: 5% 5% 5% 10%;
+    width:1000px;
+    border: 3px solid #4D342D;
+    background-color:white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -18%;
+}
+
+p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding:1%;
+}
+label{
+    font-size:1.2rem;
+    padding-bottom:0.5%;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+}
+input{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    border: 1px solid #603813;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    padding:1px 5px;
+}
+.form-box{
+    padding-bottom:3%;
+}
+textarea{
+    width:84%;
+    font-size: 1.1rem;
+}
+
+
+/*細かい指定*/
+
+
+#form-name label{
+    display:inline-block;
+    width:5%;
+    text-align: left;
+}
+
+#form-name input{
+    width:79%;
+}
+
+#na_kanji{
+    padding-top:3%;
+}
+
+#mail{
+    width:60%;
+}
+
+#check p{
+    font-size:1.4rem;
+}
+
+/*こめマーク*/
+.form-group{
+    position:relative;
+}
+.form-group:before{
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: -6%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    width: 40%;
+    height: 35%;
+}
+#form-name{
+    position:relative;
+}
+#form-name:before{
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: -6%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    width: 40%;
+    height: 12%;
+}
+#form-number{
+    position:relative;
+}
+#form-number:before{
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: -6%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    width: 40%;
+    height: 12%;
+}
+#form-contact{
+    position:relative;
+}
+#form-contact:before{
+    content: "";
+    position: absolute;
+    top: 4.2%;
+    left: -6%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    width: 40%;
+    height: 12%;
+}
+#check{
+    position:relative;
+}
+#check:before{
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: -6%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    width: 40%;
+    height: 75%;
+}
+
+
+
+
+
+
+
+}
+/*PC finished*/
+
+
+
+/*人数*/
+#form-number label{
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 2%;
+}
+#form-number input{
+    margin-right:1%;
+    width:8%;
+    text-align: center;
+}
+
+/*連絡先*/
+#phone input{
+    width: 60%;
+    margin: 0 7.4%;
+}
+
+#form-contact label{
+    margin:1% 0;
+    margin-right:1%;
+}
+#form-contact input{
+    margin:1% 0;
+}
+#ad2 input{
+    width: 89.5%;
+}
+#ad3 input{
+    width: 73%;
+}
+
+/*プルダウン*/
+
+@font-face{font-family:"IonIcons";src:url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");src:url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"),url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"),url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");font-weight:normal;font-style:normal}
+
+.pt20{
+  padding-top: 20px;
+}
+.inverse{
+  background: #000;
+  padding: 20px 0;
+  color: #fff;
+}
+.select-wrap {
+    position: relative;
+    background-color: #ffffff;
+}
+.select-wrap:before {
+    z-index: 1;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    content: "\f123";
+    font-family: "IonIcons";
+    line-height: 43px;
+    color: #603813;
+    pointer-events: none;
+}
+select{
+    outline:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 40px;
+    padding: 8px 12px;
+    border:1px solid #603813;
+    color:#828c9a;
+    width:100%;
+    border-radius:3px;
+    background-color: #ffffff;
+}
+select option{
+  background-color: #fff;
+  color: #603813;
+}
+select::-ms-expand {
+  display: none;
+}
+select:-moz-focusring { 
+  color: transparent; 
+  text-shadow: 0 0 0 #828c9a;
+}
+.select-wrap.select-primary:before{
+  color:#fff;
+}
+.select-wrap.select-primary > select{
+  background:#0084B4;
+  color:#fff;
+  border-color:#0084B4;
+}
+.select-wrap.select-primary > select:-moz-focusring { 
+  color: transparent; 
+  text-shadow: 0 0 0 #fff;
+}
+
+.select-wrap.select-inverse:before{
+  color:#fff;
+}
+.select-wrap.select-inverse > select{
+  color:#fff;
+  border-color: #fff;
+}
+
+.select-wrap.select-inverse > select:-moz-focusring { 
+  color: transparent; 
+  text-shadow: 0 0 0 #fff;
+}
+.form-group label{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1%;
+}
+
+/*checkbox*/
+.chkbox {
+    margin:         0 0 10px 20px;
+}
+/* ラベルのスタイル　*/
+.chkbox label {
+         /* ラベルの位置 */
+    padding-left: 6.5%;
+    font-size: 1.2rem;
+    line-height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.chkbox label span{
+    color:#E97C1F;
+    border-bottom:1px solid #603813;
+}
+
+/* ボックスのスタイル */
+.chkbox label:before {
+    content:        '';
+    width:          32px;           /* ボックスの横幅 */
+    height:         32px;           /* ボックスの縦幅 */
+    display:        inline-block;
+    position:       absolute;
+    left: 0;
+    background-color:   #fff;
+    border:1px solid ;
+}
+/* 元のチェックボックスを表示しない */
+.chkbox input[type=checkbox] {
+    display:        none;
+}
+/* チェックした時のスタイル */
+.chkbox input[type=checkbox]:checked + label:before {
+    content:        '\2713';        /* チェックの文字 */ 
+    font-size:      34px;           /* チェックのサイズ */
+    color:          #fff;           /* チェックの色 */
+    background-color:   #06f;           /* チェックした時の色 */
+}
+
+
+
+
+/*送信ボタン*/
+#sbm{
+    width:50%;
+    margin:0 auto;
+    padding: 5% 0;
+}
+#sbm img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SP start*/
+
+@media screen and (max-width:900px){
+
+*{
+    margin:0;
+    padding:0;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+}
+
+
+
+.contact-wrapper1{
+    background-image: url(../img/back_appreciation_sp.jpg);
+    background-size: 140%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-color: #F6F6F6;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    margin-top: 10%;
+}
+.ffinquiry{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42%;
+}
+
+#contain{
+    padding:6% 0 0 0;
+    margin-top: -2%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 52%;
+    font-size: 1.8rem;
+    border-bottom: 4px solid #603813;
+    width: 82%;
+    margin: 0 auto;
+    font-family: "Rounded Mplus 1c";
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size:2.4rem;
+    font-weight:600;
+    font-family: "Rounded Mplus 1c";
+}
+label{
+    font-size: 1.4rem;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    padding: 0;
+    margin-top:4%;
+}
+input{
+    width:70%;
+    font-size:1.6rem;
+    line-height: 1.6rem;
+    border: 1px solid #603813;
+    color:#603813;
+    font-family: "Rounded Mplus 1c";
+    padding: 1% 4% 1% 2%;
+    margin-top: 1%;
+}
+
+.form-group{
+    background-color:#FEE232;
+}
+
+.form-group label{
+    margin-left: 13%;
+    font-weight: 600;
+}
+
+
+
+#mail_former{
+    font-size: 1.2rem;
+    width:40%;
+    padding: 1% 2% 1% 2%;
+    margin-left: 2%
+}
+
+#mail_lab{
+    font-size:6vw;
+    margin-right:20%;
+}
+
+.form-box p{
+    font-size: 1.4rem;
+    background-color:#FEE232;
+    font-family: "Rounded Mplus 1c";
+    padding: 2% 14%;
+    margin-bottom:3%;
+    margin-top:3%;
+}
+#check p{
+    background-color:#F6F6F6;
+    font-family: "Rounded Mplus 1c";
+}
+
+#sei_kanji label, #na_kanji label{
+    margin-right: 2.5%;
+}
+#na_kanji{
+    padding-top:5%;
+}
+#na_kana{
+    margin-bottom:3%;
+}
+#form-name label{
+    font-size:5vw;
+    width:20%;
+    text-align: left
+}
+#sei_kanji label,#na_kanji label{
+        margin-right: 5%;
+}
+
+/*人数*/
+#form-number label{
+    width:35%;
+}
+#form-number input{
+    width:14%;
+}
+/*連絡先*/
+
+#form-contact input{
+    margin:0 0 0 4%;
+}
+#phone input,#mail{
+    width:85%;
+}
+#address{
+    display:block;
+    padding:1% 0 1% 3%;
+}
+#ad2 input{
+    width: 85%;
+    margin:4%;
+}
+#ad3 input{
+    width: 85%;
+}
+
+
+
+
+#remarks textarea{
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 1%;
+    margin: 1% 4%;
+    border: 1px solid #000000;
+    resize: vertical;
+    height: 160px;
+    min-height: 140px;
+    max-height: 300px;
+}
+
+
+/*checkbox*/
+.chkbox {
+    margin:         0 0 10px 20px;
+}
+/* ラベルのスタイル　*/
+.chkbox label {
+         /* ラベルの位置 */
+    padding-left: 12%;
+    font-size: 1.2rem;
+    line-height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.chkbox label span{
+    color:#E97C1F;
+    border-bottom:1px solid #603813;
+}
+
+/* ボックスのスタイル */
+.chkbox label:before {
+    content:        '';
+    width:          32px;           /* ボックスの横幅 */
+    height:         32px;           /* ボックスの縦幅 */
+    display:        inline-block;
+    position:       absolute;
+    left: 0;
+    background-color:   #fff;
+    border:1px solid ;
+}
+/* 元のチェックボックスを表示しない */
+.chkbox input[type=checkbox] {
+    display:        none;
+}
+/* チェックした時のスタイル */
+.chkbox input[type=checkbox]:checked + label:before {
+    content:        '\2713';        /* チェックの文字 */ 
+    font-size:      34px;           /* チェックのサイズ */
+    color:          #fff;           /* チェックの色 */
+    background-color:   #06f;           /* チェックした時の色 */
+}
+
+#sbm{
+    width:75%;
+    margin:0 auto;
+    padding: 5% 0;
+}
+#sbm img{
+    width:100%;
+}
+
+/*こめマーク*/
+.form-group{
+    position:relative;
+}
+.form-group:before{
+    content: "";
+    position: absolute;
+    top: 4.5%;
+    left: 4%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    width: 40%;
+    height: 35%;
+}
+#form-name{
+    position:relative;
+}
+#form-name:before{
+    content: "";
+    position: absolute;
+    top: 4.5%;
+    left: 4%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    width: 40%;
+    height: 35%;
+}
+#form-number{
+    position:relative;
+}
+#form-number:before{
+    content: "";
+    position: absolute;
+    top: 6.5%;
+    left: 4%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    width: 40%;
+    height: 35%;
+}
+#form-contact{
+    position:relative;
+}
+#form-contact:before{
+    content: "";
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    width: 40%;
+    height: 35%;
+}
+#check{
+    position:relative;
+    padding-top:4%;
+}
+#check:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1%;
+    background-image: url(../img/komemark_org.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    width: 40%;
+    height: 35%;
+}
+
+center h2 {
+    font-size: 4.5vw;
+    padding-top: 40%;
+    width: 80%;
+    margin: 0 auto;
+}
+#thankyou p{
+    font-size: 1rem;
+}
+.blan_blank{
+    width: 100%;
+    height: 30vh;
+    background-color: #FFF;
+}
+#thankyou:after{
+    position: absolute;
+    content: "";
+    background: url(../image/form_comp1sp.png) no-repeat;
+    background-size: 100%;
+    bottom: -5vw;
+    width: 100%;
+    height: 43%;
+}
+#thankyou{
+    height: 102vh;
+}
+
+
+}
+/*SP finished*/
